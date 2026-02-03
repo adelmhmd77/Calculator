@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" placeholder="0" id="input" disabled>
+        </div>
+        <div class="buttons">
+            <!-- full erase to clear all button -->
+            <input type="button" value="AC" id="clear">
+            <!-- erase single value or the del button -->
+            <input type="button" value="DEL" id="earase">
+            <!-- operation division -->
+            <input type="button" class="input-button" value="/">
+            <!-- operation multiplication -->
+            <input type="button" class="input-button" value="*">
+
+            <input type="button" class="input-button" value="7">
+            <input type="button" class="input-button" value="8">
+            <input type="button" class="input-button" value="9">
+            <input type="button" class="input-button" value="-">
+
+            <input type="button" class="input-button" value="6">
+            <input type="button" class="input-button" value="5">
+            <input type="button" class="input-button" value="4">
+            <input type="button" class="input-button" value="+">
+
+            <input type="button" class="input-button" value="1">
+            <input type="button" class="input-button" value="2">
+            <input type="button" class="input-button" value="3">
+
+            <input type="button" value="=" id="equal">
+            <input type="button" class="input-button" value="0">
+            <input type="button" class="input-button" value=".">
+        </div>
+    </div>
+    
+    <!-- Move the script tag here -->
+    <script src="script.js"></script>
+</body>
+</html>
